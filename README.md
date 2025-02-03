@@ -52,7 +52,7 @@ To run this analysis, ensure you have the following Python libraries installed:
 Install the required libraries using pip:
 
 ```bash
-pip install pandas matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 ## Code Overview
@@ -154,10 +154,10 @@ The analysis is implemented in a Python script or Jupyter Notebook with the foll
 ## Running the Analysis
 
 1. **Prepare the Data:**  
-   Place `purchase_behaviour.csv` and `transaction_data.csv` in the same directory as your Python script or Jupyter Notebook.
+   Place `purchase_behaviour.csv` and `transaction_data.csv` in the same directory as your Jupyter Notebook.
 
 2. **Execute the Script/Notebook:**  
-   Run the script or each cell in the notebook sequentially. Visualizations will be displayed inline (if using a Jupyter Notebook) or in separate windows (if using a script).
+   Run the script or each cell in the notebook sequentially. Visualizations will be displayed inline
 
 3. **Review the Output:**  
    The outputs include:
